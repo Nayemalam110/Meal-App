@@ -15,7 +15,7 @@ class CategoryScreen extends StatelessWidget {
       ),
       body: GridView(
           padding: EdgeInsets.all(10),
-          children: Dummy_data.map((e) {
+          children: DUMMY_CATEGORIES.map((e) {
             return Card(
               elevation: 5,
               color: Colors.transparent,
