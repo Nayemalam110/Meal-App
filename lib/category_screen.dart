@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:meal_app/category_item.dart';
+import './category_item.dart';
 import './model/category.dart';
 import './dummy_data.dart';
 
