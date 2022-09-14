@@ -89,7 +89,7 @@ class CategoryMealScreen extends StatelessWidget {
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(15),
                             topRight: Radius.circular(15)),
-                        child: Image.network(catin.imageUrl),
+                         child: Image.network(catin.imageUrl),
                       ),
                       Positioned(
                         child: Container(

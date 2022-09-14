@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meal_app/dummy_data.dart';
+import 'package:meal_app/home.dart';
 import 'package:meal_app/model/meal.dart';
 import './category_screen.dart';
 
@@ -19,7 +20,7 @@ class MyMeal extends StatelessWidget {
           colorScheme: ColorScheme.fromSwatch(
         primarySwatch: Colors.purple,
       ).copyWith(secondary: Colors.amber)),
-      home: CategoryScreen(),
+      home: Home(),
     );
   }
 }
